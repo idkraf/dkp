@@ -23,7 +23,7 @@ public class ArtikelActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
         binding.webview.getSettings().setJavaScriptEnabled(true);
-        binding.webview.loadUrl("https://coffebeans1.wordpress.com/2023/06/27/perbedaan-antara-light-medium-dan-dark-roast-pada-kopi/ ");
+        binding.webview.loadUrl("https://google.com/");
         binding.webview.setWebViewClient(new WebViewClient());
     }
 

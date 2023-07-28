@@ -32,7 +32,6 @@ import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 import androidx.core.graphics.drawable.DrawableKt;
 
-import org.tensorflow.lite.examples.imageclassification.GalleryActivity;
 import org.tensorflow.lite.examples.imageclassification.R;
 import org.tensorflow.lite.examples.imageclassification.databinding.FragmentGaleriBinding;
 import org.tensorflow.lite.examples.imageclassification.utils.BackgroundRemover;

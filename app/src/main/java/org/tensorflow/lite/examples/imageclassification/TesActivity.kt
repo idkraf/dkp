@@ -114,8 +114,7 @@ class TesActivity : AppCompatActivity() {
                     maxPos = i
                 }
             }
-            val classes =
-                arrayOf("DarkRoasting", "GreenRoasting", "LightRoasting", "MediumRoasting")
+            val classes = arrayOf("half-ripe", "over-ripe", "ripe", "unripe")
             binding.result.setText(classes[maxPos])
             var s = ""
             for (i in classes.indices) {

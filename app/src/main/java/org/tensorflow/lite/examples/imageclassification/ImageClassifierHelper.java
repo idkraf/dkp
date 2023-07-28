@@ -160,7 +160,7 @@ public class ImageClassifierHelper {
             //    modelName = "efficientnet-lite2.tflite";
             //    break;
             default:
-                modelName = "model.tflite";
+                modelName = "mobilenetv1.tflite";
         }
         try {
             imageClassifier =

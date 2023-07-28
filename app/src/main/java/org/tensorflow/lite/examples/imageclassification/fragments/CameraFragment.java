@@ -126,8 +126,7 @@ public class CameraFragment extends Fragment
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         cameraExecutor = Executors.newSingleThreadExecutor();
-        imageClassifierHelper = ImageClassifierHelper.create(requireContext()
-                , this);
+        imageClassifierHelper = ImageClassifierHelper.create(requireContext(), this);
 
         // setup result adapter
         classificationResultsAdapter = new ClassificationResultAdapter();
